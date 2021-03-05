@@ -1,0 +1,75 @@
+.main
+{
+	border: 10px white solid;
+	background-color: white;
+}
+.header
+{
+	background-color: #A8F0F0;
+} 
+.header h1
+{
+	text-align: right;
+} 
+.header h2
+{
+	font-size:  14pt;
+	text-align: right;
+}
+.upbox
+{
+	min-height: 180px;
+	height: auto;
+	border: 4px  #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+}
+.date1, .date2
+{
+	border-bottom: 2px #009097 dashed;
+}
+.downbox
+{
+	min-height: 210px;
+	height: auto;
+	border: 4px  #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+}
+body
+{
+		background-image: url("bg.jpg");
+		background-size: 300px;
+		margin-left: 10%;
+		margin-right: 10%;
+		align-items: center;
+}
+.upbox img
+{
+	float: right;
+
+}
+.downbox img
+{
+	float: right;
+
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.friends
+{
+	border: 4px  #009097 solid;
+	background-color: #A8F0F0;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+div div div div :hover {
+   background-color: yellow;
+   cursor: pointer;
+}
